@@ -9,8 +9,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  background-color: #194d33;
+  color: #fffaf0;
   grid-column: 1 / span 2;
   padding: 10px 5px;
 }
@@ -26,6 +26,7 @@ form input,
 form textarea {
   margin-bottom: 10px;
   width: 300px;
+  
 }
 
 nav,
@@ -35,7 +36,7 @@ article {
 }
 
 nav {
-  background-color: #dee9ff;
+  background-color: #dcd1c7;
 }
 
 nav p:hover {
@@ -55,4 +56,9 @@ article .body {
   background-color: red;
   color: gold;
   padding: 5px;
+}
+
+img {
+  height: 30px;
+  border-radius: 50%;
 }
