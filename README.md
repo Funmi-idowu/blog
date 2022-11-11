@@ -1,4 +1,4 @@
-Welcome to my blog.
+Welcome to my blog. 
 
 This live web app consists of one page where user's are able to to upload articles to their heart's desires. The user will be able to sign-in and sign out and when they do their name's will appear in the top right corner. Another feature of the web app is that user's are able to delete their articles and see their email icon in the top right corner next to the sign out button.
 
