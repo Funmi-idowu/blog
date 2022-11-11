@@ -13,6 +13,7 @@ header {
   color: #fffaf0;
   grid-column: 1 / span 2;
   padding: 10px 5px;
+  font-size: 17px;
 }
 
 form {
@@ -26,7 +27,6 @@ form input,
 form textarea {
   margin-bottom: 10px;
   width: 300px;
-  
 }
 
 nav,
@@ -61,4 +61,12 @@ article .body {
 img {
   height: 30px;
   border-radius: 50%;
+  margin-bottom:-10px;
+  margin-right: 5px;
 }
+
+button {
+border-radius: 4px;
+border-color:gainsboro;
+}
+
