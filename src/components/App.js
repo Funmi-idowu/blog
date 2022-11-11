@@ -40,9 +40,6 @@ export default function App() {
     })
   }
 
- 
-  
-
   return (
     <div className="App">
       <header>
@@ -50,9 +47,7 @@ export default function App() {
         {user && <button onClick={() => setWriting(true)}>New Article</button>}
         {!user ? <SignIn /> : <SignOut />}
       </header>
-
       {!user ? "" : <Nav articles={articles} setArticle={setArticle} />}
-
       {!user ? (
         ""
       ) : writing ? (
